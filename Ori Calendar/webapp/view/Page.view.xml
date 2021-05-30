@@ -1,0 +1,50 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" controllerName="sap.m.sample.GenericTileAsLaunchTile.Page">
+
+	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Ori Calendar" subheader="홍길동" press="press" id="tile1">
+		<TileContent unit="06" footer="Tues">
+			<ImageContent src="sap-icon://calendar"/>
+		</TileContent>
+	</GenericTile>
+
+	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="과제 진행률" press="press" id="tile2">
+		<TileContent>
+		<content>
+		    <sap.suite.ui.commons:ComparisonChart xmlns:sap.suite.ui.commons="sap.suite.ui.commons" tooltip="((AltText))" id="chart" busyIndicatorSize="Small" size="S">
+		        <sap.suite.ui.commons:data>
+		            <sap.suite.ui.commons:ComparisonData value="10" title="ABAP Essential" tooltip="((AltText))" id="data1"/>
+		            <sap.suite.ui.commons:ComparisonData xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:sap.suite.ui.commons="sap.suite.ui.commons" value="5" title="SAP Fiori" tooltip="((AltText))" id="data2"/>
+		            <sap.suite.ui.commons:ComparisonData value="1" title="TOEIC" tooltip="((AltText))" id="data3" color=""/></sap.suite.ui.commons:data>
+		    </sap.suite.ui.commons:ComparisonChart>
+		</content>
+		</TileContent>
+	</GenericTile>
+
+	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" mode="HeaderMode" press="press" header="예약현황" id="tile3">
+		<TileContent>
+		</TileContent>
+	</GenericTile>
+
+	<GenericTile xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="건양대학교 홈페이지" press="press" id="tile4" frameType="TwoByOne" size="M" backgroundImage="https://static.news.zumst.com/images/37/2017/11/08/a656a8f38cb847f59da0bfd3482c9815.jpg">
+
+	    <TileContent>
+
+	        
+
+	    <content>
+
+	        
+
+	        <Link xmlns="sap.m" href="https://www.konyang.ac.kr/software.do" text="CLICK HERE !" id="link1" width="100%" textAlign="End" emphasized="true"/>
+
+	        
+
+	    </content>
+
+	        
+
+	    </TileContent>
+
+	    
+
+	</GenericTile>
+</mvc:View>

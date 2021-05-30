@@ -1,0 +1,9 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout">
+	<l:VerticalLayout class="sapUiContentPadding" width="100%">
+	<l:content>
+	    <Label xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout" xmlns="sap.m" text="ID" labelFor="passwordInput" id="label1"/><Input xmlns="sap.m" placeholder="Enter ID (E-mail)" width="100%" type="Email" id="inp_id"/>
+	    <Label text="Password" labelFor="passwordInput"/>
+	    <Input id="inp_pw" type="Password" placeholder="Enter password"/><Button xmlns="sap.m" text="Log In" id="btn_logIn" type="Accept" width="100%"/>
+	</l:content>
+	</l:VerticalLayout><CheckBox xmlns="sap.m" text="Remember ID" selected="false" id="cb_id" textAlign="Initial" name="cb_id"/>
+</mvc:View>

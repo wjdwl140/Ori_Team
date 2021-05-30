@@ -1,0 +1,10 @@
+{
+  "name": "sap.m.sample.inputchecked",
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "Sample: Input - Checked",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  }
+}

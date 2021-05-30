@@ -1,0 +1,10 @@
+{
+  "name": "sap.m.sample.inputpassword",
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "Ori Calendar",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  }
+}

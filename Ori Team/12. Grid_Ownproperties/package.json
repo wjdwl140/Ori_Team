@@ -1,0 +1,10 @@
+{
+  "name": "sap.ui.layout.sample.gridxl",
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "Code: Grid - Features Demo",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  }
+}

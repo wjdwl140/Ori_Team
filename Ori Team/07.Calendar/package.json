@@ -1,0 +1,10 @@
+{
+  "name": "sap.ui.unified.sample.calendarsingledayselection",
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "Sample: Single Day Selection",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  }
+}

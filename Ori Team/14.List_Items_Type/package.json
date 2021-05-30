@@ -1,0 +1,10 @@
+{
+  "name": "sap.m.sample.listitemtypes",
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "Sample: List - Items Type",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  }
+}

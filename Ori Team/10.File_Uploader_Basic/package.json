@@ -1,0 +1,10 @@
+{
+  "name": "sap.ui.unified.sample.fileuploaderbasic",
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "Sample: Basic",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  }
+}
